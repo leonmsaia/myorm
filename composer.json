@@ -1,7 +1,20 @@
 {
+    "name": "leonmsaia/myorm",
+    "description": "Mini ORM en PHP puro con soporte para relaciones, validaciones y soft deletes.",
+    "type": "library",
+    "license": "MIT",
     "autoload": {
-        "psr-4": {
-            "MyORM\\": "src/"
-        }
-    }
-}
+      "psr-4": {
+        "MyORM\\": "src/"
+      }
+    },
+    "require": {
+      "php": ">=7.4"
+    },
+    "authors": [
+      {
+        "name": "Leon M. Saia",
+        "email": "leonmsaia@gmail.com"
+      }
+    ]
+  }
